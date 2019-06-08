@@ -14,7 +14,7 @@ public class Diagnol
 			for(int j=0;j<n;j++)
 			{
 				a[i][j]=sc.nextInt();
-				if(i==j)
+				if(i==n-j)
 				{
 					sum+=a[i][j];
 				}
