@@ -11,9 +11,16 @@ public class Triangle_1
 		{
 			for(int j=0;j<=i;j++)
 			{
-				System.out.print("1 ");
+				if(j==i)
+				{
+					System.out.println("1 ");
+				}
+				else
+				{
+					System.out.print("1 ");
+				}
 			}
-			System.out.println();
+			//System.out.println();
 		}
 	}
 }
