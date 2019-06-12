@@ -11,7 +11,12 @@ public class Triangle_pattern
 		{
 			for(int j=1;j<2*i;j++)
 			{
-				System.out.print("1 ");
+				System.out.print("1");
+				if(j<(2*i)-1)
+				{
+					System.out.print(" ");
+				}
+				
 			}
 			System.out.println();
 		}
