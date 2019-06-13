@@ -19,13 +19,13 @@ public class Word_90
 		}
 		for(int i=0;i<n;i++)
 		{
-			if(i<n1)
-			{
-				System.out.print(ch1[i]);
-			}
 			if(i<n2)
 			{
 				System.out.print(ch2[i]);
+			}
+			if(i<n1)
+			{
+				System.out.print(ch1[i]);
 			}
 			System.out.println();
 		}
